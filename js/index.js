@@ -59,8 +59,9 @@ const touchListener = (e) => {
   }
 
   else {
-    if (pickResult.pickedMesh.name == "correct") {
+    if (pickResult.pickedMesh.name == "WebPlane") {
       console.log("ANSWER IS CORRECT")
+      window.open("https://www.recordbay.de");
     }
     else {
       console.log("ANSWER IS WRONG")
